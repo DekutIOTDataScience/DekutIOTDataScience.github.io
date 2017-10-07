@@ -1,2 +1,3 @@
 name: DIDS GROUP
 markdown: kramdown
+permalink: /blog/:day/:month/:year/:title
