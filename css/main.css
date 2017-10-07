@@ -15,3 +15,10 @@ html, body {
 
 html {
   overflow: hidden; }
+
+.alignleft{float:left;margin-right:10px}	
+.aligncenter{display:block;margin:10px auto}	
+.alignright{float:right;margin-left:10px}	
+
+.floatleft{float:left}
+.floatright{float:right}
