@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DIDS GROUP, Launches Site"
+title: "DIDS"
 date: 2017-10-7
 ---
 
