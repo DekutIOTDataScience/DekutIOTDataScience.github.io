@@ -5,11 +5,7 @@
 <title>{{page.title}}</title>
 <!-- STYLES & JQUERY 
 ================================================== -->
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-<link rel="stylesheet" type="text/css" href="css/icons.css"/>
-<link rel="stylesheet" type="text/css" href="css/slider.css"/>
-<link rel="stylesheet" type="text/css" href="css/skinblue.css"/><!-- change skin color -->
-<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+{% stylesheet app %}
 <script src="js/jquery-1.9.0.min.js"></script><!-- the rest of the scripts at the bottom of the document -->
 </head>
 <body>
@@ -126,23 +122,7 @@
 </div>
 <!-- JAVASCRIPTS
 ================================================== -->
-<!-- all -->
-<script src="js/modernizr-latest.js"></script>
-
-<!-- menu & scroll to top -->
-<script src="js/common.js"></script>
-
-<!-- slider -->
-<script src="js/jquery.cslider.js"></script>
-
-<!-- cycle -->
-<script src="js/jquery.cycle.js"></script>
-
-<!-- carousel items -->
-<script src="js/jquery.carouFredSel-6.0.3-packed.js"></script>
-
-<!-- twitter -->
-<script src="js/jquery.tweet.js"></script>
+{% javascript app %}
 
 <!-- Call Showcase - change 4 from min:4 and max:4 to the number of items you want visible -->
 <script type="text/javascript">
